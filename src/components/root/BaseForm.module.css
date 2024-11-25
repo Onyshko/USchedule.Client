@@ -1,0 +1,54 @@
+.baseForm {
+  max-width: 40rem;
+  margin: 2rem auto;
+  text-align: left;
+}
+
+.baseForm label,
+.baseForm input,
+.baseForm textarea {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.baseForm input,
+.baseForm textarea {
+  font: inherit;
+  padding: 0.25rem;
+  background-color: #31302e;
+  border: 1px solid #ccc9c6;
+  border-radius: 4px;
+  margin-top: 8px;
+  color: #ccc9c6;
+  padding: 0.5rem 1.5rem;
+}
+
+.baseFormActions {
+  display: flex;
+  gap: 1rem;
+  justify-content: flex-end;
+}
+
+.baseFormActions button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  background-color: #ccc9c6;
+  color: #31302e;
+  border: none;
+}
+
+.baseFormActions button[type="button"] {
+  background-color: transparent;
+  color: #ccc9c6;
+}
+
+.baseFormActions button:hover {
+  background-color: #fae1af;
+}
+
+.baseFormActions button[type="button"]:hover {
+  background-color: #31302e;
+}

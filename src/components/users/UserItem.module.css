@@ -1,0 +1,29 @@
+.userItemInfoContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.userItemTable {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  border-spacing: 0px 16px;
+  padding: 0px 60px;
+}
+
+.userItemUl {
+  padding: 0px 60px;
+  text-align: left;
+}
+
+.usersLi {
+  padding: 8px 0px;
+}
+
+.userItemSeparator {
+  border-right: 1px solid #ccc9c6;
+}
+
+.userItemButtonBlock {
+  padding: 0 0 0 0;
+}

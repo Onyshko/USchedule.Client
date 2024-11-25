@@ -1,0 +1,13 @@
+.baseListContainer {
+  text-align: left;
+}
+
+.baseListTable {
+  width: 100%;
+  box-sizing: border-box;
+  border-spacing: 0px 16px;
+}
+
+.baseListTr {
+  padding: 8px 8px;
+}
